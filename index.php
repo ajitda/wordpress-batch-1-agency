@@ -17,7 +17,6 @@ $my_posts = get_posts($args);
 foreach($my_posts as $post) : setup_postdata($post);
 $service_icon =get_post_meta($post->ID, 'service-icon', true);
 ?>
-
 <div class="col-md-4">
     <span class="fa-stack fa-4x">
         <i class="fa fa-circle fa-stack-2x text-primary"></i>
