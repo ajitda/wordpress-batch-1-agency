@@ -26,7 +26,6 @@ $service_icon =get_post_meta($post->ID, 'service-icon', true);
     <p class="text-muted"><?php the_excerpt(); ?></p>
 </div>
 <?php endforeach; ?>
-              
             </div>
         </div>
     </section>
@@ -301,7 +300,6 @@ $service_icon =get_post_meta($post->ID, 'service-icon', true);
             </div>
         </div>
     </aside>
-
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
